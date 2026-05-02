@@ -1,0 +1,89 @@
+.style-module-scss-module__w3Q0Ba__lock_content {
+    background-color: var(--gray);
+    border-radius: 12px;
+    height: 50dvh;
+    position: relative;
+    overflow: hidden
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content img {
+    object-fit: cover;
+    z-index: 0;
+    filter: blur(20px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__count_media {
+    color: #fff;
+    text-align: center;
+    z-index: 3;
+    opacity: 1;
+    justify-content: center;
+    width: 100%;
+    padding: 13px 0 12px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    position: absolute;
+    bottom: 2px
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__count_media button {
+    background: 0 0;
+    border: none;
+    outline: none
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__count_media .style-module-scss-module__w3Q0Ba__count_media_item {
+    color: var(--soft-purple);
+    align-items: center;
+    gap: 5px;
+    display: inline-flex
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__count_media .style-module-scss-module__w3Q0Ba__count_media_item svg {
+    font-size: 18px
+}
+
+@media screen and (max-width:550px) {
+    .style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__count_media {
+        font-size: 11px
+    }
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__lock_middle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__lock_middle svg {
+    width: auto;
+    height: 24px;
+    color: var(--red-light)
+}
+
+.style-module-scss-module__w3Q0Ba__lock_content .style-module-scss-module__w3Q0Ba__lock_middle button {
+    color: #fff;
+    text-transform: uppercase;
+    background: 0 0;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 20px;
+    font-weight: 600;
+    background-color: var(--blue) !important
+}
+
+@media screen and (max-width:550px) {
+    .style-module-scss-module__w3Q0Ba__lock_content {
+        border-radius: 0
+    }
+}
