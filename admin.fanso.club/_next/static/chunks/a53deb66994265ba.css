@@ -1,0 +1,28 @@
+.style-module-scss-module__5EXcqq__not-found-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin: 90px 0;
+    display: flex
+}
+
+.style-module-scss-module__5EXcqq__not-found-page .style-module-scss-module__5EXcqq__not-found-bl {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 80px;
+    display: flex
+}
+
+.style-module-scss-module__5EXcqq__not-found-page .style-module-scss-module__5EXcqq__not-found-bl .style-module-scss-module__5EXcqq__not-found-txt {
+    width: 710px;
+    max-width: 100%
+}
+
+.style-module-scss-module__5EXcqq__not-found-page .style-module-scss-module__5EXcqq__not-found-bl .style-module-scss-module__5EXcqq__not-found-txt h1 {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px
+}
